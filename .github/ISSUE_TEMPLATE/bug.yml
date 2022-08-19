@@ -1,5 +1,5 @@
 name: "Report an incorrect translation in Windows"
-description: Describe an incorrect translation and suggest how to make it better.
+description: Describe an bug from Windows builds and suggest how to make it better.
 title: "[bug] [severe/moderate] [vm/host] \"Quoted bad translation\""
 labels: ["triage"]
 body:
@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Thank you for taking your time to file a translation issue!  
-        Please make sure to give it a correct title. e.g. _[bug] [severe] [vm] UNSUPPORTED_PROCESSOR_
+        Please make sure to give it a correct title. e.g. _[bug] [severe] [vm] Windows 11 throws into UNSUPPORTED_PROCESSOR_
   - type: dropdown
     id: store-origin
     attributes:
@@ -49,7 +49,7 @@ body:
     attributes:
       label: Details
       description: Describe why the translation shown above is incorrect.
-      placeholder: e.g. Words used in translation look out of place in this context.
+      placeholder: e.g. What happened to my PC?!?
     validations:
       required: true
   - type: textarea
@@ -57,6 +57,6 @@ body:
     attributes:
       label: Proposed solution
       description: Suggest a better translation and briefly explain what it improves. If the text in question had a better translation in the past please mention the last correct version you remember using.
-      placeholder: e.g. "Icon entfernen" The meaning of the action is clearer and sheds the awkward machine translation impression.
+      placeholder: e.g. "This app can't open/Your PC ran into a problem" The meaning of the action is clearer and sheds the bug/severe bug impression.
     validations:
       required: true
