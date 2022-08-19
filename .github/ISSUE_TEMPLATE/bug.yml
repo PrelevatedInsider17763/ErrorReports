@@ -19,7 +19,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: machine
+    id: machine-vm
     attributes:
       label: Machine
       description: Which the machine type you're sending?
