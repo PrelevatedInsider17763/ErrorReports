@@ -11,11 +11,11 @@ body:
   - type: dropdown
     id: store-origin
     attributes:
-      label: Store origin
-      description: Is the issue you're reporting related to an app from the Microsoft Store?
+      label: Modded or vanilla
+      description: Which is the type of this OS?
       options:
-        - "No"
-        - "Yes"
+        - "Modded"
+        - "Vanilla or Original"
     validations:
       required: true
   - type: dropdown
