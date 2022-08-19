@@ -23,9 +23,9 @@ body:
     attributes:
       label: Machine
       description: Which the machine type you're sending?
-       options:
-        - "VM/Virtual"
-        - "Phisycal/Host"
+      options:
+        - "VM or Virtual"
+        - "Phisycal or Host"
     validations:
       required: true
   - type: input
@@ -33,7 +33,7 @@ body:
     attributes:
       label: Affected version(s)
       description: Which version of Windows can this issue be found in?
-      placeholder: e.g. Windows 11 build 22000.613
+      placeholder: e.g. Windows 11 build 22598 or 22000.51
     validations:
       required: true
   - type: textarea
