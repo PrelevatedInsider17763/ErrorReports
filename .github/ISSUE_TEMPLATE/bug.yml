@@ -1,6 +1,6 @@
-name: "Report an incorrect translation in Windows"
-description: Describe an bug from Windows builds and suggest how to make it better.
-title: "[bug] [severe/moderate] [vm/host] \"Quoted bad translation\""
+name: "Report an bug in various Windows builds"
+description: Describe an bug in various Windows builds and suggest how to make it better.
+title: "[bug] [severe/moderate] [vm/host] \"Quoted bug in Windows/software\""
 labels: ["triage"]
 body:
   - type: markdown
@@ -40,7 +40,7 @@ body:
     id: screenshot
     attributes:
       label: Screenshot
-      description: Please include/paste a screenshot of the incorrect translation in the field below.
+      description: Please include/paste a screenshot of the BSoD/some error in the field below.
       placeholder: The less cropping the better so we can figure out exactly where this issue is located.
     validations:
       required: true
@@ -48,7 +48,7 @@ body:
     id: details
     attributes:
       label: Details
-      description: Describe why the translation shown above is incorrect.
+      description: Describe why the machine that is not working/something is wrong.
       placeholder: e.g. What happened to my PC?!?
     validations:
       required: true
@@ -56,7 +56,7 @@ body:
     id: solution
     attributes:
       label: Proposed solution
-      description: Suggest a better translation and briefly explain what it improves. If the text in question had a better translation in the past please mention the last correct version you remember using.
+      description: Suggest a bugfix and briefly explain what it improves. If the text in question had a fix in Windows/my softwares/other software in the past please mention the last correct version you remember using.
       placeholder: e.g. "This app can't open/Your PC ran into a problem" The meaning of the action is clearer and sheds the bug/severe bug impression.
     validations:
       required: true
