@@ -1,7 +1,7 @@
 name: "Report an bug in various Windows builds"
 description: Describe an bug in various Windows builds and suggest how to make it better.
 title: "[bug] [severe/moderate] [vm/host] \"Quoted bug in Windows/software\""
-labels: ["triage"]
+labels: ["Bug", "Old version does not have issue"]
 body:
   - type: markdown
     attributes:
