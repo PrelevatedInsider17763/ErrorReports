@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking your time to file a translation issue!  
+        Thank you for taking your time to check a bug of the softwares/my softwares meant for Windows and the OS itself!  
         Please make sure to give it a correct title. e.g. _[bug] [severe] [vm] Windows 11 throws into UNSUPPORTED_PROCESSOR_
   - type: dropdown
     id: store-origin
